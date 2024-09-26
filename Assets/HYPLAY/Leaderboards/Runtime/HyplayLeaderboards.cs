@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
-using HyplayJSON = HYPLAY.Runtime.HyplayJSON;
+using HYPLAY.Runtime;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
 #if NEWTONSOFT_JSON
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 #endif
 namespace HYPLAY.Leaderboards.Runtime
 {

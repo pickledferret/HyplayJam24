@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   accessToken: user_at_rKZL2Ma2GVnb0VWlPR359seKLfvmgkX8ADIbF9VP0PNkiLdItZuNP1QjlJTx6Gbs
-  devToken: sca_sat:e3ea2a10-f803-4e89-ba32-9f803973f168:Y7YdZ8IjNKHfGgvx3nIgEMiN26hf_QSf5Bq-3EfqG-NntIB-xJ1t0_rVwy2X3uuq
-  appName: Hyplay Game
+  devToken: sca_sat:4b15afff-4883-41bd-bbbe-a81662540382:fwX9loH-0VD2qvs3caujsmmOfm48oJScI3wsd0kmbL-ZP7Z38ktc3QN_sLH58wc3
+  appName: 
   appDescription: 
   appUrl: 
   timeoutHours: 24
@@ -25,9 +25,9 @@ MonoBehaviour:
     name: Hyplay Jam 24
     description: My Hyplay Game Jam Game Description
     redirectUris:
-    - https://jamiehulse.itch.io/hyplay-test/redirect.html
+    - https://pickledferret.github.io/HyplayJam24/redirect.html
     - myapp://token
-    url: https://jamiehulse.itch.io/hyplay-test
+    url: https://pickledferret.github.io/HyplayJam24/
     iconImageAsset:
       id: 9d81e2c2-286b-40ca-99bc-e98574858526
       cdnUrl: https://assets.hyplay.com/142758ed-79fd-4a68-9748-27537b69abc1/aff9cb7f0ba8299df8ce0ea9b23dc185-1727224401452.png
