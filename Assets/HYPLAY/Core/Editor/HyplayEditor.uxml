@@ -1,0 +1,50 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/HYPLAY/Editor/HyplayEditorStyles.uss?fileID=7433441132597879392&amp;guid=71577d7e3059f4c9b8eadf81e633834b&amp;type=3#HyplayEditorStyles" />
+    <engine:VisualElement style="flex-grow: 0; height: 80px; background-color: rgb(0, 0, 0); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+        <engine:VisualElement name="Header" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/HYPLAY/Editor/image%20(4).png?fileID=2800000&amp;guid=26675e68a4f58449497a46b74eff5289&amp;type=3#image (4)&quot;); height: 40px; -unity-background-scale-mode: scale-to-fit; margin-top: 20px; margin-right: 20px; margin-bottom: 10px; margin-left: 20px; flex-shrink: 1; align-items: stretch; align-self: stretch; width: auto;" />
+    </engine:VisualElement>
+    <engine:VisualElement name="UserSettings" class="body" style="flex-grow: 0;">
+        <engine:Label text="User Settings" name="UserSettingsLabel" style="-unity-text-align: upper-left; -unity-font-style: bold; margin-top: 10px;" />
+        <editor:PropertyField name="AccessToken" />
+        <editor:PropertyField name="DevToken" />
+        <editor:PropertyField name="ExpireTime" />
+        <editor:PropertyField name="UsePopup" />
+        <engine:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+        <engine:Button text="Get Access Token" name="GetAccessToken" class="hyplay-button" />
+        <engine:Button text="Get My Apps" name="GetApps" class="hyplay-button" />
+        <engine:Button text="Create New App" name="CreateApp" class="hyplay-button" />
+    </engine:VisualElement>
+    <engine:VisualElement name="AppSettings" class="body" style="flex-grow: 0;">
+        <engine:Label text="App Settings" name="AppSettingsLabel" style="-unity-text-align: upper-left; -unity-font-style: bold; margin-top: 10px;" />
+        <engine:VisualElement name="AppContent" style="flex-grow: 1; flex-direction: row;">
+            <engine:VisualElement name="AppVisuals" style="flex-grow: 0; width: 75px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                <engine:Label text="Icon" class="minor-text" />
+                <engine:VisualElement name="AppIcon" class="image-editable" style="background-image: url(&quot;project://database/Assets/HYPLAY/Editor/empty-chessboard.png?fileID=2800000&amp;guid=7866628b5157b4fcc96de3edc4a5a96f&amp;type=3#empty-chessboard&quot;);">
+                    <engine:Button text="Edit" name="EditAppIcon" class="image-edit" style="flex-grow: 1; flex-shrink: 1; margin-top: -1px; margin-right: -1px; margin-bottom: -1px; margin-left: -1px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); background-color: rgba(88, 88, 88, 0.89); font-size: 10px;" />
+                </engine:VisualElement>
+                <engine:Label text="Background" class="minor-text" />
+                <engine:VisualElement name="AppBackground" class="image-editable" style="background-image: url(&quot;project://database/Assets/HYPLAY/Editor/empty-chessboard.png?fileID=2800000&amp;guid=7866628b5157b4fcc96de3edc4a5a96f&amp;type=3#empty-chessboard&quot;);">
+                    <engine:Button text="Edit" name="EditAppBackground" class="image-edit" style="flex-grow: 1; flex-shrink: 1; margin-top: -1px; margin-right: -1px; margin-bottom: -1px; margin-left: -1px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); background-color: rgba(88, 88, 88, 0.89); font-size: 10px;" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 0; width: 10px;" />
+            <engine:VisualElement name="AppData" style="flex-grow: 1;">
+                <engine:VisualElement style="flex-grow: 0.5;" />
+                <editor:PropertyField name="AppName" />
+                <editor:PropertyField name="AppDescription" />
+                <editor:PropertyField name="NewURL" />
+                <engine:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+                <editor:PropertyField name="AppID" focusable="false" />
+                <editor:PropertyField name="AppSecret" focusable="false" />
+                <engine:Label name="AppStatus" />
+                <engine:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+                <engine:Button text="Create App" name="SubmitApp" class="hyplay-button" />
+                <engine:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <editor:PropertyField name="AppURL" />
+        <engine:VisualElement class="spacer" style="flex-grow: 0; height: 10px;" />
+        <editor:PropertyField name="AppRedirectURIs" />
+        <engine:Button text="Update This App" name="UpdateApp" class="hyplay-button" />
+    </engine:VisualElement>
+</engine:UXML>

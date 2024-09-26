@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86356c65269e24441b830d0ca9ce5360, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  accessToken: user_at_rKZL2Ma2GVnb0VWlPR359seKLfvmgkX8ADIbF9VP0PNkiLdItZuNP1QjlJTx6Gbs
+  devToken: sca_sat:e3ea2a10-f803-4e89-ba32-9f803973f168:Y7YdZ8IjNKHfGgvx3nIgEMiN26hf_QSf5Bq-3EfqG-NntIB-xJ1t0_rVwy2X3uuq
+  appName: Hyplay Game
+  appDescription: 
+  appUrl: 
+  timeoutHours: 24
+  usePopup: 1
+  currentApp:
+    id: ed381ba3-1fc2-4fda-b848-854ca84d2d44
+    secretKey: app_sk_r6h4z0ADhR0uIaQzLKBQmYSUPCYUtDqrNCkgLlzQq0bnrHXBQahF_sNbH8OT25yN
+    name: Hyplay Jam 24
+    description: My Hyplay Game Jam Game Description
+    redirectUris:
+    - https://jamiehulse.itch.io/hyplay-test/redirect.html
+    - myapp://token
+    url: https://jamiehulse.itch.io/hyplay-test
+    iconImageAsset:
+      id: 9d81e2c2-286b-40ca-99bc-e98574858526
+      cdnUrl: https://assets.hyplay.com/142758ed-79fd-4a68-9748-27537b69abc1/aff9cb7f0ba8299df8ce0ea9b23dc185-1727224401452.png
+    backgroundImageAsset:
+      id: 64efe8fd-07da-4909-bcd8-74e933c687c1
+      cdnUrl: https://assets.hyplay.com/142758ed-79fd-4a68-9748-27537b69abc1/dcae683f4902e53a5263054747e6abf9-1727224401762.png
